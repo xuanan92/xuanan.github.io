@@ -1,0 +1,60 @@
+.nav{
+	height: 50px;
+	background: blue;
+}
+.nav div{
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+	}
+.nav ul{
+	position: absolute;
+	right: 5px;
+	}
+.nav ul li{
+	display: inline-block;
+	}
+.nav ul li a{
+	color: white;
+	padding: 5px;
+	}
+.home{
+	background: url("../images/homeBack.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+.home .text-container{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+
+}
+.services{
+	background: ;
+	background-size: cover;
+	height: 100vh}
+.services .service-content{
+	text-align: center;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	height:90vh;
+.services .service-content .card-container{ 
+	padding:0;
+	display:inline-block;
+}
+.services .service-content .card-container ul{
+	padding:0;
+.services .service-content .card-container ul li{
+	list-style:none;
+	margin: 20px;
+	width 300px;
+}
+.services .service-content .card-container ul li p{
+	text-align: justify;
+}
